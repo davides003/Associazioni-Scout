@@ -14,7 +14,7 @@ public class CONNESSIONE {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             String url = "jdbc:mysql://localhost:3306/Scouts";
-            con = DriverManager.getConnection(url,"root", "angelo@2015");
+            con = DriverManager.getConnection(url,"root", "******");
             System.out.println("Connessione OK \n");
             //con.close();
         }
